@@ -1,0 +1,5 @@
+[workspace]
+members = ["programs/bridge_solana"]
+
+[workspace.metadata.anchor]
+seeds = false
