@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/typechain-types/
+
+# Anchor / Solana
+solana/target/
+solana/.anchor/
+
+# Frontend build
+frontend/dist/
+frontend/.vite/
+
+# Scripts build
+scripts/dist/
+
+# General
+.DS_Store
+*.log
